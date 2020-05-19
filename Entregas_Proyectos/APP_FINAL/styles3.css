@@ -1,0 +1,73 @@
+
+body{
+  background: url(3.png);
+  background-color: black;
+  background-size: 1270px 620px;
+  background-repeat:   no-repeat;
+  background-position: center top;
+}
+
+
+.hora{
+  margin-left: 760px;
+  margin-top: 20px;
+  font-family: inherit;
+  font-size: 14px;
+  color: white;
+}
+
+.transporte{
+    margin-left: 760px;
+    margin-top: 20px;
+    font-family: inherit;
+    font-size: 14px;
+    color: white;
+}
+
+
+.hora2{
+  margin-left: 790px;
+  margin-top: 130px;
+  font-family: inherit;
+  font-size: 14px;
+  color: white;
+}
+
+.hora3{
+  margin-left: 790px;
+  margin-top: 20px;
+  font-family: inherit;
+  font-size: 14px;
+  color: white;
+}
+
+.ajustaBoton{
+  margin-left: 850px;
+}
+
+.ajustaBoton2{
+  margin-left: 760px;
+  margin-top: 130px;
+}
+
+.ajustaBoton3{
+  margin-left: 80px;
+  margin-top: 20px;
+}
+
+.lugares{
+  margin-left: 10px;
+}
+
+.selector{
+  margin-top:20px;
+  margin-left: 10px;
+}
+
+.Frecuencia{
+  margin-top: 20px;
+}
+
+.celular{
+  margin-top: 20px;
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PREVID-19</title>
+    <link rel="icon"  type="image/png" href="virus.png">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles1.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+
+</head>
+  </head>
+  <body >
+
+
+  <form id="form" >
+                  <div class="ajuste">
+                    <div class="input-group b1">
+                       <div class="col-xs-3">
+                         <input id="name" type="text" class="form-control" name="name" placeholder="Nombre">
+                      </div>
+                  </div>
+                       <br>
+                  <div class="input-group b2">
+                      <div class="col-xs-3">
+                          <input id="correo" type="text" class="form-control" name="correo" placeholder="Correo Electronico">
+                      </div>
+                  </div>
+                        <br>
+           <div class="ajustaBoton">
+               <input class='btn btn-info' type='button' onclick="getData()" value='Ingresar'>
+           </div>
+           </div>
+       </form>
+
+       <script>
+           function getData (){
+            var nombre = document.getElementById("name").value;
+            console.log(nombre)
+            localStorage.setItem("Nombre", nombre);
+            window.location.href = "vista2.html"
+          }
+        </script>
+
+
+  </body>
+</html>

@@ -1,0 +1,17 @@
+
+body{
+  background: url(1.png);
+  background-color: black;
+  background-size: 1270px 620px;
+  background-repeat:   no-repeat;
+  background-position: center top;
+}
+
+.ajuste{
+    margin-left: 810px;
+    margin-top: 320px;
+}
+
+.ajustaBoton{
+  margin-left: 50px;
+}

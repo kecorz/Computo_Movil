@@ -1,0 +1,15 @@
+
+body{
+  background: url(6.png);
+  background-color: black;
+  background-size: 1270px 620px;
+  background-repeat:   no-repeat;
+  background-position: center top;
+}
+
+.virus img{
+  width: 75px;
+  height: 75px;
+  margin-left: 775px;
+  margin-top: 260px;
+}

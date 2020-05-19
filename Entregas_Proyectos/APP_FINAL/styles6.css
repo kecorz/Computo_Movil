@@ -1,0 +1,26 @@
+
+body{
+  background: url(7.png);
+  background-color: black;
+  background-size: 1270px 620px;
+  background-repeat:   no-repeat;
+  background-position: center top;
+}
+
+.promos{
+  margin-left: 800px;
+  margin-top: 80px;
+
+}
+
+.promos img{
+
+  margin-top: 14px;
+  width: 70px;
+  height: 70px;
+}
+
+.ajustaBoton{
+  margin-left: 780px;
+  margin-top: 130px;
+}

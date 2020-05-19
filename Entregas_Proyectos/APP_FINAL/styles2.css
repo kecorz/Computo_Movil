@@ -1,0 +1,23 @@
+body{
+  background: url(2.png);
+  background-color: black;
+  background-size: 1270px 620px;
+  background-repeat:   no-repeat;
+  background-position: center top;
+}
+
+.ajustaBoton{
+  margin-left: 850px;
+  margin-top: 100px;
+
+}
+
+.Bienvenida{
+  text-align: center;
+  font-family: inherit;
+  font-size: 14px;
+  margin-top: 200px;
+  color: white;
+  margin-left: 420px;
+
+}
