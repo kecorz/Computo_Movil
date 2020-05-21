@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PREVID-19</title>
+    <link rel="icon"  type="image/png" href="virus.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+
+
+
+  </head>
+
+
+  <body >
+
+    <div class="virus">
+      <a href="vista1.html"> <img src="virus.png"> </a>
+    </div>
+
+    <script>
+
+    // modificar aquí la cantidad de segundos y en el stilo .start
+    var contador=3;
+    setTimeout(()=>{
+        var interval=setInterval(()=>{
+            contador--;
+            /*document.querySelector(".meter .num").innerHTML=contador;*/
+            if(contador<=0)
+            {
+                finalCuentaAtras();
+            }
+        },1000);
+    },500);
+
+    function finalCuentaAtras() {
+        window.location="vista9.html";
+    }
+    </script>
+
+  </body>
+</html>

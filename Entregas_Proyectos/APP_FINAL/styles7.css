@@ -1,0 +1,22 @@
+
+body{
+  background: url(8.png);
+  background-color: black;
+  background-size: 1270px 620px;
+  background-repeat:   no-repeat;
+  background-position: center top;
+}
+
+.virus img{
+  width: 75px;
+  height: 75px;
+  margin-left: 765px;
+  margin-top: 80px;
+}
+
+.higiene img{
+  width: 38px;
+  height: 38px;
+  margin-left: 990px;
+  margin-top: 130px;
+}

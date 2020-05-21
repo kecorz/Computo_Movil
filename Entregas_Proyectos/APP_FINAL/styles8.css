@@ -1,0 +1,15 @@
+body{
+  background: url(9.png);
+  background-color: black;
+  background-size: 1270px 620px;
+  background-repeat:   no-repeat;
+  background-position: center top;
+}
+
+.cierre img{
+  width: 14px;
+  height: 14px;
+  margin-left: 1010px;
+  margin-top: 130px;
+  margin-bottom: 0px;
+}
